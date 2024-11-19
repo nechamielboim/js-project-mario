@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="icon" type="image/png" href="../images/3.png" >
+
+   <link rel="stylesheet" href="game.css">
+</head>
+<body>
+   
+     <div class="background">
+        <canvas id="gameCanvas" ></canvas>
+        <img id="player" src="../images/2.png" alt="שחקן1" >
+        <p id="screenTimer"></p>
+        <img id="screenCoin" src="../images/coin.png">
+        <p id="numCoins">X 0</p>
+        <p id="top"></p>
+    </div>
+    <img id="video_enter" src="../gif/enter.gif">
+
+    <audio id="jump">
+        <source src="../sounds/jump.WAV" type="audio/mpeg">
+    </audio>
+    <audio id="fail">
+        <source src="../sounds/fail.WAV" type="audio/mpeg">
+    </audio>
+    <audio id="coin">
+        <source src="../sounds/coin.mp3" type="audio/mpeg">
+    </audio>
+    <img class="gifs" id="endGif" src="../gif/game_over.gif"  />
+    <img class="gifs" id="winGif" src="../gif/you_won.gif" />
+    <img class="gifs" id="topGif" src="../gif/top.gif"  />
+    <audio id="win">
+        <source src="../sounds/cluping.wav" type="audio/mpeg">
+    </audio>
+    <div class="class_level">
+    <a href="home.html" class="button" id="newGame">new game</a>
+    </div>
+    <script src="game.js"></script>
+
+</body>
+</html>
